@@ -9,11 +9,11 @@ public class TestOld {
     	String temp = "cn=regcsr,ou=member,dc=ghc,dc=org^cn=authcsr,ou=member,dc=ghc,dc=org^cn=mychsdartcsr,ou=member,dc=ghc,dc=org";
     	if(temp.indexOf("mychartcsr")!=-1)
     	{
-    	   System.out.println("there is 'b' in temp string");
+    	   System.out.println("inside if");
     	}
     	else
     	{
-    	   System.out.println("there is no 'b' in temp string");
+    	   System.out.println("inside else");
     	}
 
     }
